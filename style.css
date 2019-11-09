@@ -2,7 +2,6 @@
     display: block;
 }
 #targetDiv {
-  border: 1px dashed #333333;
   width: 600px;
   height: 400px;
 }
