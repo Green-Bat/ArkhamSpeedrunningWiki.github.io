@@ -41,11 +41,18 @@ function ProcessLinks(text){
 	return newText;
 }
 
-function run(fileName){
+function LoadMarkdown(){
+	var url = new URL(window.location.href);
+	var fileName = url.searchParams.get("page");
+	
+	if(fileName == null){
+		return;
+	}
+	
 	var target = document.getElementById('targetDiv');
 	var converter = new showdown.Converter();
 	
-	jQuery.get('https://raw.githubusercontent.com/ArkhamSpeedrunningWiki/ArkhamSpeedrunningWiki.github.io/master/' + fileName, function(data){
+	jQuery.get('https://raw.githubusercontent.com/ArkhamSpeedrunningWiki/ArkhamSpeedrunningWiki.github.io/master/' + fileName + '.md', function(data){
 		data = ProcessLinks(data);
 		data = ProcessNewLines(data);
 		target.innerHTML = converter.makeHtml(data);
