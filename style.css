@@ -1,3 +1,24 @@
+body{
+	color: white;
+	background-color: #1D1D1D;
+}
+
+a:link{
+	color: #16AD6C;
+}
+
+a:hover{
+	color: #16AD6C;
+}
+
+a:active{
+	color: #16AD6C;
+}
+
+a:visited{
+	color: #16AD6C;
+}
+
 #sourceTA {
     display: block;
 }
