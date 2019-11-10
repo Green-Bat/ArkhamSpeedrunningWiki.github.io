@@ -11,74 +11,77 @@
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<script src="URI.js"></script>
-
-		<title>Guides - Arkham Speedrunning Wiki</title>
-	</head>
-    <body>
-		<div style="background:transparent !important" class="jumbotron text-center">
-			<h1><a href="index.html">Arkham Speedrunning Wiki</a></h1>
-			<a>Everything there is to know about Arkham Speedrunning</a>
-		</div>
-		
-		<!--<textarea id="sourceTA" rows="10" cols="82"></textarea> 
-		<hr/>-->
-		<div class="container">
-			<div class="col">
-				<h5>Asylum</h5>
-				<button id="runBtn" onClick="window.location.href = 'page.html?page=Guides/Asylum/AnyEasyWalkthrough';">Any% Easy Walkthrough</button>
-				<button id="runBtn" onClick="window.location.href = 'page.html?page=Guides/Asylum/30FPS';">How to Switch FPS to 30 on PC</button>
-				<button id="runBtn" onClick="window.location.href = 'page.html?page=Guides/Asylum/Mousewheel';">Mousewheel binds for ripping grates and skipping dialog</button>
-				<button id="runBtn" onClick="window.location.href = 'page.html?page=Guides/Asylum/Videos';">Video commentary/tutorials</button>
-				<hr/>
-			</div>
-		</div>
-		
-		<div class="container">
-			<div class="col">
-				<h5>City</h5>
-				<button id="runBtn" onClick="window.location.href = 'page.html?page=Guides/City/AnyCojo';">Any% Tutorial (by cojosao)</button>
-				<button id="runBtn" onClick="window.location.href = 'page.html?page=Guides/City/AnyJohn';">Any% Tutorial (July 2019)</button>
-				<button id="runBtn" onClick="window.location.href = 'page.html?page=Guides/City/RemoveCatwoman';">How to remove Catwoman DLC from the GOTY version</button>
-				<button id="runBtn" onClick="window.location.href = 'page.html?page=Guides/City/Languages';">Language Differences, and How to Change Languages</button>
-				<button id="runBtn" onClick="window.location.href = 'page.html?page=Guides/City/FramerateImprovement';">Make Game Work Better on Low-end Systems (Delta Time Adjustment)</button>
-				<button id="runBtn" onClick="window.location.href = 'page.html?page=Guides/City/Mousewheel';">Mousewheel Binds for Countering, Opening Grates, and Skipping Dialogue</button>
-				<button id="runBtn" onClick="window.location.href = 'page.html?page=Guides/City/NGPlus';">NG+ Tutorial</button>
-				<button id="runBtn" onClick="window.location.href = 'page.html?page=Guides/City/NGMinus';">NG- Preparation</button>
-				<button id="runBtn" onClick="window.location.href = 'page.html?page=Guides/City/Autosplitter';">Using the Autosplitter</button>
-				<hr/>
-			</div>
-		</div>
-		
-		<div class="container">
-			<div class="col">
-				<h5>Origins</h5>
-				<button id="runBtn" onClick="window.location.href = 'page.html?page=Guides/Origins/FPS';">How to Change FPS</button>
-				<hr/>
-			</div>
-		</div>
-		
-		<div class="container">
-			<div class="col">
-				<h5>Knight</h5>
-				<button id="runBtn" onClick="window.location.href = 'page.html?page=Guides/Knight/100';">100% Speedrun routing</button>
-				<button id="runBtn" onClick="window.location.href = 'page.html?page=Guides/Knight/ACE';">ACE Chemicals Skip</button>
-				<button id="runBtn" onClick="window.location.href = 'page.html?page=Guides/Knight/Any';">Any% Tutorial (Speed Tech, Tricks, and Glitches)</button>
-				<hr/>
-			</div>
-		</div>
-		
-		<div class="container"><div class="col">
-			<div id="targetDiv"></div>
-		</div></div>
-
-    	<!-- Optional JavaScript -->
-    	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    	<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
-    	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 		
 		<script src="https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"></script>
 		<script src="script.js"></script>
+
+		<title>Guides - Arkham Speedrunning Wiki</title>
+	</head>
+    <body class="dark">
+		<div style="background:rgb(29,29,29,0.9) !important" class="jumbotron text-center">
+			<h1><a href="index.html">Arkham Speedrunning Wiki</a></h1>
+			<a>Everything there is to know about Arkham Speedrunning</a>
+		</div>
 		
+		<div class="container">
+			<div class="panel">
+				<div class="col">
+					<h5>Asylum</h5>
+					<button class="button" id="runBtn" onClick="window.location.href = 'page.html?page=Guides/Asylum/AnyEasyWalkthrough';">Any% Easy Walkthrough</button>
+					<button class="button" id="runBtn" onClick="window.location.href = 'page.html?page=Guides/Asylum/30FPS';">How to Switch FPS to 30 on PC</button>
+					<button class="button" id="runBtn" onClick="window.location.href = 'page.html?page=Guides/Asylum/Mousewheel';">Mousewheel binds for ripping grates and skipping dialog</button>
+					<button class="button" id="runBtn" onClick="window.location.href = 'page.html?page=Guides/Asylum/Videos';">Video commentary/tutorials</button>
+					<hr/>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="panel">
+				<div class="col">
+					<h5>City</h5>
+					<button class="button" id="runBtn" onClick="window.location.href = 'page.html?page=Guides/City/AnyCojo';">Any% Tutorial (by cojosao)</button>
+					<button class="button" id="runBtn" onClick="window.location.href = 'page.html?page=Guides/City/AnyJohn';">Any% Tutorial (July 2019)</button>
+					<button class="button" id="runBtn" onClick="window.location.href = 'page.html?page=Guides/City/RemoveCatwoman';">How to remove Catwoman DLC from the GOTY version</button>
+					<button class="button" id="runBtn" onClick="window.location.href = 'page.html?page=Guides/City/Languages';">Language Differences, and How to Change Languages</button>
+					<button class="button" id="runBtn" onClick="window.location.href = 'page.html?page=Guides/City/FramerateImprovement';">Make Game Work Better on Low-end Systems (Delta Time Adjustment)</button>
+					<button class="button" id="runBtn" onClick="window.location.href = 'page.html?page=Guides/City/Mousewheel';">Mousewheel Binds for Countering, Opening Grates, and Skipping Dialogue</button>
+					<button class="button" id="runBtn" onClick="window.location.href = 'page.html?page=Guides/City/NGPlus';">NG+ Tutorial</button>
+					<button class="button" id="runBtn" onClick="window.location.href = 'page.html?page=Guides/City/NGMinus';">NG- Preparation</button>
+					<button class="button" id="runBtn" onClick="window.location.href = 'page.html?page=Guides/City/Autosplitter';">Using the Autosplitter</button>
+					<hr/>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="panel">
+				<div class="col">
+					<h5>Origins</h5>
+					<button class="button" id="runBtn" onClick="window.location.href = 'page.html?page=Guides/Origins/FPS';">How to Change FPS</button>
+					<hr/>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="panel">
+				<div class="col">
+					<h5>Knight</h5>
+					<button class="button" id="runBtn" onClick="window.location.href = 'page.html?page=Guides/Knight/100';">100% Speedrun routing</button>
+					<button class="button" id="runBtn" onClick="window.location.href = 'page.html?page=Guides/Knight/ACE';">ACE Chemicals Skip</button>
+					<button class="button" id="runBtn" onClick="window.location.href = 'page.html?page=Guides/Knight/Any';">Any% Tutorial (Speed Tech, Tricks, and Glitches)</button>
+					<hr/>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="col">
+				<div id="targetDiv"></div>
+			</div>
+		</div>
     </body>
 </html>

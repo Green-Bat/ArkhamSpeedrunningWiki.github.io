@@ -26,3 +26,52 @@ a:visited{
   width: 600px;
   height: 400px;
 }
+
+body.dark {
+    color: rgba(255,255,255,0.92);
+    background: #1D1D1D url(Images/background.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+body.dark .panel {
+    background: rgba(18, 18, 18, 0.9);
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+    font-size: 0.9rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+	resize: both;
+	height: auto;
+}
+
+.main-panel{
+	background: rgba(18, 18, 18, 0.9);
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+    font-size: 0.9rem;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+	resize: both;
+	height: auto;
+	
+	text-shadow: 1px 1px rgba(0,0,0,0.5);
+	position: relative;
+	width: 125%;
+	margin-left: -12.5% !important;
+}
+
+.button{
+	background-color: #29612b;
+	border: none;
+	color: white;
+	padding: 7.5px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 2px 1px;
+	cursor: pointer;
+}
