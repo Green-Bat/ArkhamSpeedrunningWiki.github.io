@@ -1,4 +1,6 @@
 # How to Change FPS
+- By [GreenBat](https://www.speedrun.com/user/GreenBat)
+- Updated July 12th, 2019
 
 Make sure V-sync is turned off, then do the following: navigate to the "BmEngine.ini" file and open it, then scroll  til you find "MaxSmoothedFrameRate" under "[Engine.GameEngine]" the value should be -1. You can change it to whatever you want but for the speedrun we typically change it to 62. (shown in video)
 

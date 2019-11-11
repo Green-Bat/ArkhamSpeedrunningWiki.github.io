@@ -1,4 +1,6 @@
 # Using the Autosplitter
+- By [ShikenNuggets](https://www.speedrun.com/user/ShikenNuggets)
+- Updated October 14th, 2019
 
 Runners playing on PC can automate most of their splits with the autosplitter. It can be configured to split on pre-rendered cutscenes, and at loading zones (such as entering or leaving an area). It can also start the timer automatically at the beginning of a run, however it cannot end a run for any category.
 

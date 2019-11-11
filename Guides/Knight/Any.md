@@ -1,4 +1,6 @@
 # Any% Tutorial (Speed Tech, Tricks, and Glitches)
+- By [Psychotik](https://www.speedrun.com/user/Psychotik)
+- Updated October 27th, 2017
 
 https://www.youtube.com/watch?v=UVBXTYZmk8g
 

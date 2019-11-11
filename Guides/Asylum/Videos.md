@@ -1,4 +1,6 @@
 # Video commentary/tutorials
+- By [Feanorus](https://www.speedrun.com/user/Feanorus)
+- Updated February 12th, 2016
 
 The Sunday Sequence Break #142 – Batman: Arkham Asylum with RoboSparkle, HonorableJay, Char
 

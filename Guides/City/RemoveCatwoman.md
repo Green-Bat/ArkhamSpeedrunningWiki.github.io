@@ -1,4 +1,6 @@
 # How to remove Catwoman DLC from the GOTY version
+- By [Feanorus](https://www.speedrun.com/user/Feanorus)
+- Updated April 16th, 2016
 
 Four Catwoman segments were originally a Day 1 DLC and optional to install, but when the game was rereleased in Steam as the Game of the year edition, they became an integral part of the game. However, since many runners dislike these segments, we found a way to remove it by editing an .ini file, without affecting the rest of the game. That's why you will find separate categories on the leaderboard.
 

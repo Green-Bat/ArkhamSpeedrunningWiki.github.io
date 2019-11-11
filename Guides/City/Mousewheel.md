@@ -1,4 +1,6 @@
 # Mousewheel Binds for Countering, Opening Grates, and Skipping Dialogue
+- By [cojosao](https://www.speedrun.com/user/cojosao)
+- Updated October 4th, 2019
 
 Here is how you set up the optimal mousewheel bindings for this game. Alternatively, if you are fine with using the game's default binds, we have a pre-made file in the [Resources section](https://www.speedrun.com/arkhamcity/resources).
 

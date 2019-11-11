@@ -1,4 +1,6 @@
 # Any% Tutorial (July 2019)
+- By [JohnStephenEvil](https://www.speedrun.com/user/JohnStephenEvil)
+- Updated September 9th, 2019
 
 https://youtu.be/nFoZ1hHl7ss
 

@@ -1,4 +1,6 @@
 # Language Differences, and How to Change Languages
+- By [ShikenNuggets](https://www.speedrun.com/user/ShikenNuggets)
+- Updated May 29th, 2019
 
 **TL;DR**: Spanish is the fastest language for every full-game category, and French is fastest for HQR.
 
