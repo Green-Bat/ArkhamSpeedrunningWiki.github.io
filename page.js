@@ -10,6 +10,10 @@ function ProcessLinks(text){
 	var newText = text;
 
 	var result = URI.withinString(text, function(url){
+		if(url.includes('http') && !url.includes('https')){
+			url.replace('http', 'https');
+		}
+		
 		if(IsYouTubeLink(url)){
 			var newUrl = url;
 			
