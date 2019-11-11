@@ -6,10 +6,6 @@ function IsTwitchLink(text){
 	return text.includes('twitch.tv');
 }
 
-function ProcessNewLines(text){
-	return text.replace(/(?:\r\n|\r|\n)/g, ' <br/>');
-}
-
 function ProcessLinks(text){
 	var newText = text;
 
@@ -47,10 +43,11 @@ function LoadMarkdown(){
 	
 	var target = document.getElementById('targetDiv');
 	var converter = new showdown.Converter();
+	converter.setFlavor('github');
 	
 	jQuery.get('https://raw.githubusercontent.com/ArkhamSpeedrunningWiki/ArkhamSpeedrunningWiki.github.io/master/' + fileName + '.md', function(data){
 		data = ProcessLinks(data);
-		data = ProcessNewLines(data);
-		target.innerHTML = "<div class=main-panel>" + converter.makeHtml(data) + "</div>";
+		data = converter.makeHtml(data);
+		target.innerHTML = "<div class=main-panel>" + data + "</div>";
 	});
 }
