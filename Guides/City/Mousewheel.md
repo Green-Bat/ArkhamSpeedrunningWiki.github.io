@@ -1,3 +1,5 @@
+# Mousewheel Binds for Countering, Opening Grates, and Skipping Dialogue
+
 Here is how you set up the optimal mousewheel bindings for this game. Alternatively, if you are fine with using the game's default binds, we have a pre-made file in the [Resources section](https://www.speedrun.com/arkhamcity/resources).
 
 * Open the game's Launcher, choose Settings -> Controls

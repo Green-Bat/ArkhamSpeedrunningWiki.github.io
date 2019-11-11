@@ -1,3 +1,5 @@
+# Any% Easy Walkthrough
+
 Not my official tutorial, but here is a Walkthrough from where I go from the beginning of a fresh save file to the end of Sewer Skip, while giving my thoughts and tips throughout the run. I go in detail with all the zips/tricks/skips used during a run. Some future stuff may be discovered, but as of October 18, 2018 these are the zips and tricks used in an Any% run.
 
 Remember this run is done in 30fps, so if you are on PC you will need to change it (there is a guide on how to do that as well), and if you are playing with console (PS3/PS4/Xbox360/XboxOne) do not worry about it since the default is already at 30fps. Also there is another guide in how to setup mousewheel binds. 

@@ -1,3 +1,5 @@
+# NG+ Tutorial
+
 So most of NG+ is actually the exact same as any%, and most of it you can learn by just copying what runners do. This applies to everything before getting the batsuit and after the the tower ascend. There is another guide for removing the catwoman dlc which we decided to ignore, and in Resources you will find a New Game Plus-ready save. (make sure to keep copies as you may go through saves fast). This category used to look intimidating but now it isn't very difficult, although the zip into elevator is a bit annoying.
 
 Helpful Links (turn on annotations for videos):

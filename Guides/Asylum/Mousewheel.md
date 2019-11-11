@@ -1,3 +1,5 @@
+# Mousewheel binds for ripping grates and skipping dialogue
+
 Here is how you set up mousewheel bindings for this game. Alternatively, if you are fine with using the game's default binds, we have a pre-made file in the [Resources section](https://www.speedrun.com/arkhamasylum/resources).
 
 The ini file will be found here > "My Documents\Square Enix\Batman Arkham Asylum GOTY\BmGame\Config\UserInput.ini"

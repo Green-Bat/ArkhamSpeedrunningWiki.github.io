@@ -1,3 +1,5 @@
+# Language Differences, and How to Change Languages
+
 **TL;DR**: Spanish is the fastest language for every full-game category, and French is fastest for HQR.
 
 There are a few points in the game where playing on a different audio language results in dialog ending faster, and allowing you to progress through the game faster. You can view a [full spreadsheet detailing all known language differences here](https://docs.google.com/spreadsheets/d/1IKkIDsWLHIBuIRkccrBSSW0kj0DUEJzlh97NLzSERkw/edit#gid=0).

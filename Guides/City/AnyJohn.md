@@ -1,3 +1,5 @@
+# Any% Tutorial (July 2019)
+
 https://youtu.be/nFoZ1hHl7ss
 
 For zips to work correctly, you need to run the game at 62fps, which is the default framerate without v-sync. If it's running at 60fps, you need to disable v-sync. Disable it in the game's launcher, and make sure it's not forced on by any third-party programs like Nvidia Control Panel.

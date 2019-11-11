@@ -1,3 +1,5 @@
+# How to Switch FPS to 30 for PC
+
 The ini file will be found here > "My Documents\Square Enix\Batman Arkham Asylum GOTY\BmGame\Config\UserEngine.ini"
 
 Add the following two lines in at the bottom of the file:
