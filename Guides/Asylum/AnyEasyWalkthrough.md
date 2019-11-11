@@ -1,4 +1,6 @@
 # Any% Easy Walkthrough
+- By [FullyAutomato](https://www.speedrun.com/user/FullyAutomato)
+- Updated October 18th, 2018
 
 Not my official tutorial, but here is a Walkthrough from where I go from the beginning of a fresh save file to the end of Sewer Skip, while giving my thoughts and tips throughout the run. I go in detail with all the zips/tricks/skips used during a run. Some future stuff may be discovered, but as of October 18, 2018 these are the zips and tricks used in an Any% run.
 
