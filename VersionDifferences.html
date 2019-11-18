@@ -16,19 +16,36 @@
     	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 		<script src="page.js"></script>
 
-		<title>Page - Arkham Speedrunning Wiki</title>
+		<title>Version Differences - Arkham Speedrunning Wiki</title>
 	</head>
-    <body class="dark" onload="LoadPageMarkdown()">
+    <body class="dark" onload="LoadFileMarkdown('AsylumVersionDifferences')">
 		<div style="background:rgb(29,29,29,0.9) !important" class="jumbotron text-center">
 			<h1><a href="index.html">Arkham Speedrunning Wiki</a></h1>
 			<a>Everything there is to know about Arkham Speedrunning</a>
 		</div>
 		
-		<div class="container-fluid">
+		<div class="container">
+			<div class="panel">
+				<div class="col">
+					<button class="button" id="runBtn" onClick="LoadFileMarkdown('VD-Asylum');">Asylum</button>
+					<button class="button" id="runBtn" onClick="LoadFileMarkdown('VD-City');">City</button>
+					<button class="button" id="runBtn" onClick="LoadFileMarkdown('VD-Origins');">Origins</button>
+					<button class="button" id="runBtn" onClick="LoadFileMarkdown('VD-Knight');">Knight</button>
+					<hr/>
+				</div>
+			</div>
+		</div>
 		
+		<div class="container-fluid">
 		<div class="row">
 			<div class="col-md center-block overflow-hidden"></div>
 			<div class="col-md-4 center-block">
+				<ul class="nav nav-tabs furious panel">
+					<a id="category14960" class="nav-item nav-link category" href="javascript:;" onclick="LoadFileMarkdown('VD-Asylum');">Asylum</a>
+					<a id="category563" class="nav-item nav-link category" href="javascript:;" onclick="LoadFileMarkdown('VD-City');">City</a>
+					<a id="category60431" class="nav-item nav-link category" href="javascript:;" onclick="LoadFileMarkdown('VD-Origins');">Origins</a>
+					<a id="category42389" class="nav-item nav-link category" href="javascript:;" onclick="LoadFileMarkdown('VD-Knight');">Knight</a>
+				</ul>
 				<div id="targetDiv"></div>
 			</div>
 			<div class="col-md center-block overflow-hidden"></div>

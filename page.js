@@ -37,10 +37,19 @@ function ProcessLinks(text){
 	return newText;
 }
 
-function LoadMarkdown(){
+function LoadPageMarkdown(){
 	var url = new URL(window.location.href);
 	var fileName = url.searchParams.get("page");
 	
+	if(fileName === null){
+		return;
+	}
+	
+	console.log(fileName);
+	LoadFileMarkdown(fileName);
+}
+
+function LoadFileMarkdown(fileName){
 	if(fileName === null){
 		return;
 	}
