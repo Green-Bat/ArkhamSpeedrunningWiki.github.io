@@ -3,28 +3,12 @@ body{
 	background-color: #1D1D1D;
 }
 
-a:link{
-	color: #16AD6C;
-}
-
-a:hover{
-	color: #16AD6C;
-}
-
-a:active{
-	color: #16AD6C;
-}
-
-a:visited{
-	color: #16AD6C;
-}
-
 #sourceTA {
     display: block;
 }
+
 #targetDiv {
-  width: 600px;
-  height: 400px;
+	width: 100%;
 }
 
 body.dark {
@@ -36,18 +20,98 @@ body.dark {
     background-repeat: repeat;
 }
 
+body.light {
+	color: rgba(20,20,20,0.92);
+    background: #c7c7c7 url(Images/background-light.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+body.dark a:link{
+	color: #16AD6C;
+}
+
+body.dark a:hover{
+	color: #16AD6C;
+}
+
+body.dark a:active{
+	color: #16AD6C;
+}
+
+body.dark a:visited{
+	color: #16AD6C;
+}
+
+body.light a:link{
+	color: #3333f7;
+}
+
+body.light a:hover{
+	color: #3333f7;
+}
+
+body.light a:active{
+	color: #3333f7;
+}
+
+body.dark .jumbotron{
+	background-color: rgb(29,29,29,0.9);
+}
+
+body.light .jumbotron{
+	background-color: rgb(230,230,230,0.9);
+}
+
+body.light a:visited{
+	color: #3333f7;
+}
+
 body.dark .panel {
     background: rgba(18, 18, 18, 0.9);
     box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
     font-size: 0.9rem;
     padding: 1rem;
-    margin-bottom: 1rem;
+	margin-bottom: 1rem;
     border-radius: 0.5rem;
 	resize: both;
 	height: auto;
 }
 
-.main-panel{
+body.light .panel {
+	background: rgba(220, 220, 220, 0.9);
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+    font-size: 0.9rem;
+    padding: 1rem;
+	margin-bottom: 1rem;
+    border-radius: 0.5rem;
+	resize: both;
+	height: auto;
+}
+
+body.dark .tab-panel{
+	background: rgba(18, 18, 18, 0.9);
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+    font-size: 0.9rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+	resize: both;
+	height: auto;
+}
+
+body.light .tab-panel{
+	background: rgba(220, 220, 220, 0.9);
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+    font-size: 0.9rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+	resize: both;
+	height: auto;
+}
+
+body.dark .main-panel{
 	background: rgba(18, 18, 18, 0.9);
     box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
     font-size: 0.9rem;
@@ -56,14 +120,22 @@ body.dark .panel {
     border-radius: 0.5rem;
 	resize: both;
 	height: auto;
-	
-	text-shadow: 1px 1px rgba(0,0,0,0.5);
 	position: relative;
-	width: 125%;
-	margin-left: -25% !important;
 }
 
-.button{
+body.light .main-panel{
+	background: rgba(220, 220, 220, 0.9);
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+    font-size: 0.9rem;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+	resize: both;
+	height: auto;
+	position: relative;
+}
+
+body.dark .button{
 	background-color: #29612b;
 	border: none;
 	color: white;
@@ -74,4 +146,73 @@ body.dark .panel {
 	font-size: 16px;
 	margin: 2px 1px;
 	cursor: pointer;
+	border-radius: 0.5rem;
+	box-shadow: 0 2px #999;
+}
+
+body.light .button{
+	background-color: #4d4dff;
+	border: none;
+	color: white;
+	padding: 7.5px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 2px 1px;
+	cursor: pointer;
+	border-radius: 0.5rem;
+	box-shadow: 0 2px #999;
+}
+
+body.dark .selected-button{
+	background-color: #133815;
+	border: none;
+	color: white;
+	padding: 7.5px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 2px 1px;
+	cursor: pointer;
+	border-radius: 0.5rem;
+	box-shadow: 0 2px #999;
+}
+
+body.light .selected-button{
+	background-color: #3b3bf7;
+	border: none;
+	color: white;
+	padding: 7.5px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 2px 1px;
+	cursor: pointer;
+	border-radius: 0.5rem;
+	box-shadow: 0 2px #999;
+}
+
+body.dark .button:hover{
+	background-color: #1c421d;
+}
+
+body.light .button:hover{
+	background-color: #7272fc;
+}
+
+body.dark .button:active{
+	background-color: #29612b;
+	color: white;
+	box-shadow: 0 1px #666;
+	transform: translateY(1px);
+}
+
+body.light .button:active{
+	background-color: #4d4dff;
+	color: white;
+	box-shadow: 0 1px #666;
+	transform: translateY(1px);
 }

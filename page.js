@@ -7,6 +7,9 @@ function IsTwitchLink(text){
 }
 
 function ProcessLinks(text){
+	var iFrameWidth = "100%";
+	var iFrameHeight = 415;
+	
 	var newText = text;
 
 	var result = URI.withinString(text, function(url){
@@ -27,10 +30,10 @@ function ProcessLinks(text){
 				newUrl = newUrl.replace("youtu.be/", "youtube.com/embed/");
 			}
 			
-			newText = newText.replace(url, "<iframe width='720' height='480' src=" + newUrl + "></iframe>");
+			newText = newText.replace(url, "<iframe width='" + iFrameWidth + "' height='" + iFrameHeight + "' src=" + newUrl + "></iframe>");
 		}else if(IsTwitchLink(url) && !url.includes("/p/")){
 			var newURL = url.substring(url.lastIndexOf("/") + 1);
-			newText = newText.replace(url, "<iframe width='720' height='480' src=https://player.twitch.tv/?video=" + newURL + "&autoplay=false></iframe>");
+			newText = newText.replace(url, "<iframe width='" + iFrameWidth + "' height='" + iFrameHeight + "' src=https://player.twitch.tv/?video=" + newURL + "&autoplay=false></iframe>");
 		}
 	});
 
@@ -61,6 +64,6 @@ function LoadFileMarkdown(fileName){
 	jQuery.get("https://raw.githubusercontent.com/ArkhamSpeedrunningWiki/ArkhamSpeedrunningWiki.github.io/master/" + fileName + ".md", function(data){
 		data = ProcessLinks(data);
 		data = converter.makeHtml(data);
-		target.innerHTML = "<div class=main-panel>" + data + "</div>";
+		target.innerHTML = "<div class=main-panel container>" + data + "</div>";
 	});
 }
