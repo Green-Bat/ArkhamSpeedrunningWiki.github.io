@@ -52,7 +52,7 @@ function LoadPageMarkdown(){
 	LoadFileMarkdown(fileName);
 }
 
-function LoadFileMarkdown(fileName){
+function LoadFileMarkdown(fileName, embedLinks = true){
 	if(fileName === null){
 		return;
 	}
@@ -62,7 +62,10 @@ function LoadFileMarkdown(fileName){
 	converter.setFlavor("github");
 	
 	jQuery.get("https://raw.githubusercontent.com/ArkhamSpeedrunningWiki/ArkhamSpeedrunningWiki.github.io/master/" + fileName + ".md", function(data){
-		data = ProcessLinks(data);
+		if(embedLinks){
+			data = ProcessLinks(data); //Temporary workaround for certain pages, TODO - find a way to denote that links should not embed
+		}
+		
 		data = converter.makeHtml(data);
 		target.innerHTML = "<div class=main-panel container>" + data + "</div>";
 	});
