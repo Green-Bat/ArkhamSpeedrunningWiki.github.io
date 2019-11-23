@@ -1,4 +1,4 @@
-body{
+.body{
 	color: white;
 	background-color: #1D1D1D;
 	background-attachment: fixed;
@@ -11,7 +11,7 @@ body{
 	width: 100%;
 }
 
-panel{
+.panel{
     box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
     font-size: 0.9rem;
     padding: 1rem;
@@ -21,7 +21,7 @@ panel{
 	height: auto;
 }
 
-button{
+.button{
 	border: none;
 	color: white;
 	padding: 7.5px 15px;
@@ -35,13 +35,13 @@ button{
 	box-shadow: 0 2px #999;
 }
 
-button:active{
+.button:active{
 	color: white;
 	box-shadow: 0 1px #666;
 	transform: translateY(1px);
 }
 
-selected-button{
+.selected-button{
 	border: none;
 	color: white;
 	padding: 7.5px 15px;
