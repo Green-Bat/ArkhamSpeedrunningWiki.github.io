@@ -1,4 +1,4 @@
-.body{
+body{
 	color: white;
 	background-color: #1D1D1D;
 	background-attachment: fixed;
@@ -21,7 +21,7 @@
 	height: auto;
 }
 
-.button{
+button{
 	border: none;
 	color: white;
 	padding: 7.5px 15px;
@@ -35,7 +35,7 @@
 	box-shadow: 0 2px #999;
 }
 
-.button:active{
+button:active{
 	color: white;
 	box-shadow: 0 1px #666;
 	transform: translateY(1px);

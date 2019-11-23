@@ -1,6 +1,10 @@
 body.dark{
     color: rgba(255,255,255,0.92);
     background: #1D1D1D url(Images/background.png);
+	background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
 }
 
 body.dark a:link{
