@@ -1,0 +1,47 @@
+body.dark{
+    color: rgba(255,255,255,0.92);
+    background: #1D1D1D url(Images/background.png);
+}
+
+body.dark a:link{
+	color: #16AD6C;
+}
+
+body.dark a:hover{
+	color: #16AD6C;
+}
+
+body.dark a:active{
+	color: #16AD6C;
+}
+
+body.dark a:visited{
+	color: #16AD6C;
+}
+
+body.dark .jumbotron{
+	background-color: rgb(29,29,29,0.9);
+}
+
+body.dark .panel{
+    background: rgba(18, 18, 18, 0.9);
+}
+
+body.dark .button{
+	background-color: #29612b;
+	color: white;
+}
+
+body.dark .button:hover{
+	background-color: #1c421d;
+}
+
+body.dark .button:active{
+	background-color: #29612b;
+	color: white;
+}
+
+body.dark .selected-button{
+	background-color: #133815;
+	color: white;
+}

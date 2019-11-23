@@ -1,0 +1,47 @@
+body.light{
+	color: rgba(20,20,20,0.92);
+    background: #c7c7c7 url(Images/background-light.png);
+}
+
+body.light a:link{
+	color: #3333f7;
+}
+
+body.light a:hover{
+	color: #3333f7;
+}
+
+body.light a:active{
+	color: #3333f7;
+}
+
+body.light a:visited{
+	color: #3333f7;
+}
+
+body.light .jumbotron{
+	background-color: rgb(230,230,230,0.9);
+}
+
+body.light .panel{
+	background: rgba(220, 220, 220, 0.9);
+}
+
+body.light .button{
+	background-color: #4d4dff;
+	color: white;
+}
+
+body.light .button:hover{
+	background-color: #7272fc;
+}
+
+body.light .button:active{
+	background-color: #4d4dff;
+	color: white;
+}
+
+body.light .selected-button{
+	background-color: #3b3bf7;
+	color: white;
+}

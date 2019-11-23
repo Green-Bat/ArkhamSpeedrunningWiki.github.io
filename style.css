@@ -120,7 +120,6 @@ body.dark .main-panel{
     border-radius: 0.5rem;
 	resize: both;
 	height: auto;
-	position: relative;
 }
 
 body.light .main-panel{
@@ -132,7 +131,6 @@ body.light .main-panel{
     border-radius: 0.5rem;
 	resize: both;
 	height: auto;
-	position: relative;
 }
 
 body.dark .button{

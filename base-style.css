@@ -1,0 +1,56 @@
+body{
+	color: white;
+	background-color: #1D1D1D;
+	background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+#targetDiv{
+	width: 100%;
+}
+
+panel{
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+    font-size: 0.9rem;
+    padding: 1rem;
+	margin-bottom: 1rem;
+    border-radius: 0.5rem;
+	resize: both;
+	height: auto;
+}
+
+button{
+	border: none;
+	color: white;
+	padding: 7.5px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 2px 1px;
+	cursor: pointer;
+	border-radius: 0.5rem;
+	box-shadow: 0 2px #999;
+}
+
+button:active{
+	color: white;
+	box-shadow: 0 1px #666;
+	transform: translateY(1px);
+}
+
+selected-button{
+	border: none;
+	color: white;
+	padding: 7.5px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 2px 1px;
+	cursor: pointer;
+	border-radius: 0.5rem;
+	box-shadow: 0 2px #999;
+}
