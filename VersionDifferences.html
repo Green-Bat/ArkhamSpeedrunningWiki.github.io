@@ -1,45 +1,47 @@
 <!doctype html>
 <html lang="en">
 	<head>
+		<title>Version Differences - Arkham Speedrunning Wiki</title>
+	
 		<!-- Required meta tags -->
-    	<meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
 
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" href="style.css"/>
-		
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<script src="URI.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"></script>
+		<script src="URI.js"></script>
+		<script src="Utilities.js"></script>
+		<script src="script.js"></script>
 		<script src="page.js"></script>
 		<script src="tabs.js"></script>
-		<script src="Utilities.js"></script>
-
-		<title>Version Differences - Arkham Speedrunning Wiki</title>
-		
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+				
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 		<link rel="manifest" href="/site.webmanifest">
 		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 		<meta name="msapplication-TileColor" content="#da532c">
 		<meta name="theme-color" content="#ffffff">
 	</head>
-    <body id="body-main" onload="document.getElementById('body-main').className = LoadStyle(); LoadFileMarkdown('VD-Asylum')">
-		<div class="jumbotron text-center container-fluid">
-			<div class="row">
-			<div class="col"></div>
-			<div class="col-8">
-				<h1><a href="index.html">Arkham Speedrunning Wiki</a></h1>
-				<a>Everything there is to know about Arkham Speedrunning</a>
-			</div>
-			<div class="col">
-				<button class="button" id="day-button" onClick="document.getElementById('body-main').className = 'light'; SaveStyle('light');">Day Mode</button><br>
-				<button class="button" id="night-button" onClick="document.getElementById('body-main').className = 'dark'; SaveStyle('dark');">Night Mode</button>
-			</div>
+    <body id="body-main" onload="SetStyle(LoadStyle()); LoadFileMarkdown('VD-Asylum')">
+		<div class="jumbotron jumbotron-fluid text-center container-fluid">
+			<div class="container">
+				<div class="row">
+					<div class="col"></div>
+					<div class="col-8">
+						<h1><a href="index.html">Arkham Speedrunning Wiki</a></h1>
+						<a>Everything there is to know about Arkham Speedrunning</a>
+					</div>
+						<div class="col">
+						<button class="button" id="style-button" onClick="ToggleStyle();">Day Mode</button>
+					</div>
+				</div>
 			</div>
 		</div>
 		

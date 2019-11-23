@@ -68,5 +68,10 @@ function LoadFileMarkdown(fileName, embedLinks = true){
 		
 		data = converter.makeHtml(data);
 		target.innerHTML = "<div class=main-panel container>" + data + "</div>";
+	}).fail(function(){
+		target.innerHTML = "<div class=main-panel container>"
+						+ "<h2>Page not found!</h2>"
+						+ "<a href='index.html'>Return to home page</a>"
+						+ "</div>";
 	});
 }
