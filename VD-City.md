@@ -49,7 +49,6 @@ Freeze grenade climbing is significantly easier on keyboard, since it involves m
 - Very poor and somewhat inconsistent load times (especially on PS4)
 - Does not run at a consistent framerate (specifically in the overworld)
 - More textures remain visible when you are out of bounds, so navigating out of bounds is easier
-- 
 
 # WiiU
 
