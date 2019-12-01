@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<title>Version Differences - Arkham Speedrunning Wiki</title>
+		<title>How to Contribute - Arkham Speedrunning Wiki</title>
 	
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
@@ -31,7 +31,7 @@
 		<meta name="msapplication-TileColor" content="#da532c">
 		<meta name="theme-color" content="#ffffff">
 	</head>
-    <body id="body-main" onload="SetStyle(LoadStyle()); LoadFileMarkdown('VD-Asylum')">
+    <body id="body-main" onload="SetStyle(LoadStyle()); LoadFileMarkdown('Contribute.md')">
 		<div class="jumbotron jumbotron-fluid text-center container-fluid">
 			<div class="container">
 				<div class="row">
@@ -47,35 +47,27 @@
 			</div>
 		</div>
 		
-		<div class="container-fluid">
-		<div class="row">
-			<div class="col-md center-block overflow-hidden">
-				<div class="panel">
-					<h4>Site</h4>
-					<a href="index.html">Home Page</a><br/>
-					<a href="guides.html">Guides (mirrored from speedrun.com)</a><br/>
-					<a href="VersionDifferences.html">Version Differences</a><br/>
-					<a href="contribute.html">How to Contribute</a><br/>
+		<div class="container-fluid">		
+			<div class="row">
+				<div class="col-md center-block overflow-hidden">
+					<div class="panel">
+						<h4>Site</h4>
+						<a href="index.html">Home Page</a><br/>
+						<a href="guides.html">Guides (mirrored from speedrun.com)</a><br/>
+						<a href="VersionDifferences.html">Version Differences</a><br/>
+						<a href="contribute.html">How to Contribute</a><br/>
 						
-					<h4>External Links</h4>
-					<a href="https://www.speedrun.com/batman#platform=&orderby=newest&unofficial=on" target="_blank">Leaderboards</a><br/>
-					<a href="https://discord.gg/bQMZ4nN" target="_blank">Discord</a><br/>
-					<a href="https://github.com/ArkhamSpeedrunningWiki/ArkhamSpeedrunningWiki.github.io"  target="_blank">GitHub</a><br/>
+						<h4>External Links</h4>
+						<a href="https://www.speedrun.com/batman#platform=&orderby=newest&unofficial=on" target="_blank">Leaderboards</a><br/>
+						<a href="https://discord.gg/bQMZ4nN" target="_blank">Discord</a><br/>
+						<a href="https://github.com/ArkhamSpeedrunningWiki/ArkhamSpeedrunningWiki.github.io"  target="_blank">GitHub</a><br/>
+					</div>
 				</div>
-			</div>
-			<div class="col-md-6 center-block">
-				<div class="container">
-					<button class="button" id="a-tab" onClick="StylizeButtons('a-tab'); LoadFileMarkdown('VD-Asylum', false);">Asylum</button>
-					<button class="button" id="c-tab" onClick="StylizeButtons('c-tab'); LoadFileMarkdown('VD-City', false);">City</button>
-					<button class="button" id="o-tab" onClick="StylizeButtons('o-tab'); LoadFileMarkdown('VD-Origins', false);">Origins</button>
-					<button class="button" id="k-tab" onClick="StylizeButtons('k-tab'); LoadFileMarkdown('VD-Knight', false);">Knight</button>
+				<div class="col-md-6 center-block">
+					<div id="targetDiv"></div>
 				</div>
-				<div id="targetDiv"></div>
+				<div class="col-md center-block overflow-hidden"></div>
 			</div>
-			<div class="col-md center-block overflow-hidden"></div>
 		</div>
-		</div>
-		
-		
     </body>
 </html>
