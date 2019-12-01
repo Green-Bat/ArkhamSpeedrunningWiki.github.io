@@ -15,7 +15,7 @@ You also want PhysX off, and DirectX 11 Features and Tessellation off. PhysX gen
 18:05 - Standing Storage
 19:53 - Mr. Hammer skip
 21:53 - GCPD
-24:49 - Corner Zips
+24:49 - Corner Zips - More details here: https://youtu.be/ER13hyl3RDQ
 26:28 - First Upgrades - Bat Swarm & Multi-Ground Takedown
 28:04 - Museum 1
 29:39 - Failing Jammer Cancels
