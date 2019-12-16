@@ -6,7 +6,7 @@ All console versions of Arkham City are locked to 30fps (on current patch). The 
 
 The following zips only work on PC/62fps:
 - Zip after leaving GCPD 1 (this *can* put you somewhere useful on console, but is extremely inconsistent)
-- Dino Skip ([console variation](https://www.youtube.com/watch?v=whwtMPDewdw) known as 'Pterodactyl Skip')
+- Dino Skip ([console variation](https://youtu.be/FokHx27bSbc))
 - Zip after leaving the Museum (there's an undocumented variation of this)
 - Modern Dead Parents Skip (there's a variation of this, but it may be slower. Old way works)
 - Old version of Protocol 10 skip (modern version may not work for unrelated reasons)
