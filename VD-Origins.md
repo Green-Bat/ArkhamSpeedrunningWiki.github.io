@@ -8,7 +8,7 @@ Butterfly gliding is PC exclusive, as it can only be done with keyboard and mous
 
 # Quickfire Multibatarangs
 
-On PC, you can bind Quickfire Multibatarangs to a keyboard input. This is heavily used in combat and predator encounters.
+On PC, you can bind Quickfire Multibatarangs (Gadget 4) to a keyboard input. This is heavily used in combat and predator encounters.
 
 # Mousewheel
 
