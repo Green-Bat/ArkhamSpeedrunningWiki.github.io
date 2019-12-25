@@ -36,7 +36,7 @@ Gliding is *significantly* easier while using keyboard and mouse, and offers gre
 
 # Ra's Cutscene Skip
 
-The cutscene skip we do at the end of the Ra's boss fight can only be performed on keyboard and mouse (and therefore, only on the PC version). There is allegedly a way to make it happen on controller, but there is no detailed description or video evidence of this.
+The cutscene skip we do at the end of the Ra's boss fight can only be done consistently on keyboard and mouse. There is [a way to do this on controller](https://clips.twitch.tv/HeadstrongJollyBaconBrainSlug) but it's unclear how exactly it works or why it behaves differently.
 
 # Wonder Tower
 Freeze grenade climbing is significantly easier on keyboard, since it involves mashing the '5' key instead of Right Trigger.
